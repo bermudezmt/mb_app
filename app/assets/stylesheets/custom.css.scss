@@ -2,7 +2,7 @@
 
 /* mixins, variables, etc */
 
-$grayMediumLight: #eaeaea;
+$grayMediumLight: #eaeae;
 
 /* universal */
 
@@ -69,7 +69,7 @@ p {
 	padding-top: 9px;
 	font-weight: bold;
 	line-height: 1;
-	&: hover {
+	&:hover {
 		color: $white;
 		text-decoration: none;
 	}
