@@ -24,10 +24,9 @@ textarea {
 
 .center {
 	text-align: center;
-}
-
-.center h1 {
+	h1 {
 	margin-bottom: 10px;
+	}
 }
 
 /* typography */
@@ -79,7 +78,7 @@ p {
 footer {
 	margin-top: 45px;
 	padding-top: 5px;
-	border-top: 1px solid #eaeaea;
+	border-top: 1px solid $grayMediumLight;
 	color: #999;
 	a {
 		color: $gray;
