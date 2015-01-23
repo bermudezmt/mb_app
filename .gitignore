@@ -22,3 +22,6 @@ doc/
 .DS_Store
 bundler_stubs/
 config/database.yml
+
+db_backups
+do_not_backup_list
