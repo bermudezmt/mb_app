@@ -5,6 +5,8 @@
 				<%= render 'shared/user_info' %>
 			</section>
 			<section>
+				<%= render 'shared/stats' %>
+			<section>
 				<%= render 'shared/micropost_form' %>
 			</section>
 		</aside>
@@ -15,8 +17,8 @@
 	</div>
 <% else %>
 	<div class="center hero-unit">
-		<h1>Welcome to my Message Board</h1>
-		<h2>This is a message board built using Ruby on Rails.</h2>
+		<h1>Welcome to Jitter.</h1>
+		<h2>This is a micro-message board built using Ruby on Rails.</h2>
 
 		<%= link_to "Sign up now!", signup_path, class: "btn btn-large btn-primary" %>
 	</div>

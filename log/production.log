@@ -1,0 +1,3 @@
+Migrating to CreateUsers (20141112213219)
+Migrating to AddIndexToUsersEmail (20141119192738)
+Migrating to AddPasswordDigestToUsers (20141119201254)
