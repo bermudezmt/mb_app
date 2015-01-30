@@ -36,7 +36,7 @@ group :test do
   gem 'factory_girl_rails', '1.4.0'
 end 
 
-group :production :staging do 
+group :production, :staging do 
   gem 'pg'
   gem 'mysql2'
 end
